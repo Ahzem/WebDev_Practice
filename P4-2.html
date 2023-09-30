@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>q2.html</title>
+	</head>
+
+	<body bgcolor="pink">
+		<form>
+			<fieldset>
+				<legend>Online Application form</legend>
+				<form action="" method="POST">
+				
+				<label for="nic">NIC Number: </label>
+				<input type="text" id="nic" name="NIC" required>
+				<br><br>
+				
+				<label for="fname">First Name: </label>
+				<input type="text" id="fname" name="fname" required>
+				<br><br>
+				
+				<label for="lname">Last Name: </label>
+				<input type="text" id="lname" name="lname" required>
+				<br><br>
+				
+				<label for="Email">Email Address: </label>
+				<input type="email" id="email" name="email" required>
+				<br><br>
+				
+				<label for="mobile">Mobile Number: </label>
+				<input type="tel" id="mobile" name="mobile" required>
+				<br><br>
+				
+				<label>Address: </label>
+				<textarea rows="4" cols="40" name="comments"></textarea>
+				<br>
+				
+				<label for="gender">Gender: </label>
+				<input type="radio" id="gender" name="gender" value="Male">Male
+				<input type="radio" id="gender" name="gender" value="Female">Female
+				<input type="radio" id="gender" name="gender" value="Other">Other
+				<br>
+				
+				<label for="Education">Select Relavent Educational Qualification: </label><br>
+				<input type="checkbox" id="Education" name="Education" value="Ordinary level" checked>Ordinary level<br>
+				<input type="checkbox" id="Education" name="Education" value="Advance level" checked>Advance level<br>
+				<input type="checkbox" id="Education" name="Education" value="Diploma">Diploma<br>
+				<input type="checkbox" id="Education" name="Education" value="Degree">Degree<br>
+				<input type="checkbox" id="Education" name="Education" value="Postgraduate Degree or Diploma">Postgraduate Degree or Diploma
+				<br><br>
+				
+				<label>Select the position you want to apply: </label>
+				<select name="dropdown">
+					<option value="position">Select a position</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select>
+				<br><br>
+				
+				<label>Upload your CV here...</label>
+				<input type="file" name="fileupload"/>
+				<br><br>
+				
+				<input type="submit" value="submit">
+				<input type="reset" value="reset">
+				
+			</fieldset>
+		</form>
+	
+	
+	</body>
+</html>
